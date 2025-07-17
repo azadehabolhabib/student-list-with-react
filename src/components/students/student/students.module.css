@@ -1,0 +1,35 @@
+.students{
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #8c7575;
+    text-align: center;
+    padding-bottom: 2px;
+}
+.lables{
+    display: block;
+    margin:10px auto;
+    text-align: center;
+    font-weight:bold;
+}
+
+.input{
+    width: 80%;
+    height: 30px;
+     margin: 20px auto;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #8c7575;
+    border-radius: 5px;
+    padding: 5px;
+    direction: rtl;
+}
+
+input[type=email],input[type=number]{
+    direction: ltr;
+}
+
+@media(min-width:500px){
+    .students{
+        width: 450px;
+    }
+}
